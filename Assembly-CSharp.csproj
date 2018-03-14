@@ -509,12 +509,9 @@
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UICollection.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
-     <Compile Include="Assets\Scripts\ItemHit.cs" />
-     <Compile Include="Assets\Scripts\MovingThroughLevels.cs" />
-     <Compile Include="Assets\Scripts\QuantityController.cs" />
      <Compile Include="Assets\Scripts\Reacher.cs" />
      <Compile Include="Assets\Scripts\ToyAnimator.cs" />
-     <Compile Include="Assets\Scripts\ToyController.cs" />
+     <Compile Include="Assets\Scripts\WorldCursor.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonShader.shader" />

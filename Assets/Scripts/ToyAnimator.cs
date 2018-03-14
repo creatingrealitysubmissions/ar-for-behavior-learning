@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ToyAnimator : MonoBehaviour {
 
-    public bool rotate = false;
+    private bool rotate = false;
     public float delta;
+    public Vector3 RotationDirection;
 
 	// Use this for initialization
 	void Start () {
@@ -13,16 +14,21 @@ public class ToyAnimator : MonoBehaviour {
 	}
 
     // Update is called once per frame
-    void Update() {
+    void Update() 
+	{
         if (rotate)
         {
-        transform.Rotate(Vector3.up * Time.deltaTime * delta);
+        	transform.Rotate(RotationDirection * Time.deltaTime * delta);
         }
     }
 
     void OnTriggerEnter(Collider toy)
     {
         rotate = true;
-        
     }
+
+	void OnTriggerExit(Collider toy)
+	{
+		rotate = false;
+	}
 }
