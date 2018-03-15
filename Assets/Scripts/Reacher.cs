@@ -117,7 +117,7 @@ public class Reacher : MonoBehaviour {
 				gui.SetActive (false);
 				itemSelected = "Item1";
 			}
-			if (Input.GetKeyDown (KeyCode.W)) { // Change this to: when gazing Dog && grabs
+			if (Input.GetKeyDown (KeyCode.W)) { // Change this to: when gazing Pew Pew && grabs
 				//remove canvas
 				item2.SetActive (true);
 				colliderItem2.enabled = true;
@@ -155,20 +155,6 @@ public class Reacher : MonoBehaviour {
 			}
 		}
     }
-
-	void FixedUpdate()
-	{
-		Vector3 fwd = transform.TransformDirection(x,0,z);
-		Debug.DrawRay(transform.position, fwd,Color.green);
-		if (Physics.Raycast(transform.position, fwd, 100))
-		{ 
-			//print("Something There"); 
-		}
-		else
-		{ 
-			//print("Nothing"); 
-		}
-	}
 
 	void SetLevelAndStage (int level, int stage)
 	{

@@ -509,6 +509,7 @@
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UICollection.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
+     <Compile Include="Assets\Scripts\OnClick.cs" />
      <Compile Include="Assets\Scripts\Reacher.cs" />
      <Compile Include="Assets\Scripts\ToyAnimator.cs" />
      <Compile Include="Assets\Scripts\WorldCursor.cs" />
